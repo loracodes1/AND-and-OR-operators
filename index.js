@@ -35,8 +35,10 @@ true && !1;
 console.log(true && !1) //false
 
 !0 && "This is a string"; 
+console.log(!0 && "This is a string") //This is a string
 
 !0 && "";
+console.log(!0 && "")
 
 !0 && !!"";
 
