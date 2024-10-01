@@ -55,6 +55,7 @@ console.log(true || false) //true
 true || 1; 
 console.log(true || 1) //true because both are truthy
 
-!true || !false
+!true || !false ;
+console.log(!true || !false )
 
 !1 || !0
