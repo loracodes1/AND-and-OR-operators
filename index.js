@@ -47,9 +47,10 @@ console.log(!0 && !!"") //false
 
 // Practice with OR
 0 || false;
-console.log(0 || false) //
+console.log(0 || false) //false because both are falsey
 
 true || false;
+console.log(true || false)
 
 true || 1;
 
