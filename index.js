@@ -13,7 +13,10 @@ else {
 
      //OR OPERATOR
 const degree =20;
-if (degree >0 || degree<=30){
-    console.log('The degrees are FAVOURIBLE')
+if (degree ==0 || degree<=30){
+    console.log('The degrees are FAVOURIBLE');
+}
+else{
+    console.log('The tempersture is so HIGH');
 }
 
