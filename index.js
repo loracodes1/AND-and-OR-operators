@@ -41,12 +41,13 @@ console.log(!0 && "This is a string") //This is a string
 console.log(!0 && "") //an empty space
 
 !0 && !!"";
-console.log(!0 && !!"")
+console.log(!0 && !!"") //false
 
 
 
 // Practice with OR
 0 || false;
+console.log(0 || false) //
 
 true || false;
 
