@@ -59,3 +59,4 @@ console.log(true || 1) //true because both are truthy
 console.log(!true || !false )
 
 !1 || !0
+console.log(!1 || !0)
