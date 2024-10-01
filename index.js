@@ -19,4 +19,4 @@ if (degree ==0 || degree<=30){
 else{
     console.log('The tempersture is so HIGH');
 }
-
+//If the first expression is truthy, || returns the value of the first expression. If the first expression is falsey, || returns the value of the second expression.
