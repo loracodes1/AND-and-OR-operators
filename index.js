@@ -50,9 +50,10 @@ console.log(!0 && !!"") //false
 console.log(0 || false) //false because both are falsey
 
 true || false;
-console.log(true || false)
+console.log(true || false) //true
 
-true || 1;
+true || 1; 
+console.log(true || 1) //true because both are truthy
 
 !true || !false
 
