@@ -20,3 +20,33 @@ else{
     console.log('The tempersture is so HIGH');
 }
 //If the first expression is truthy, || returns the value of the first expression. If the first expression is falsey, || returns the value of the second expression.
+
+
+0 && false;
+console.log(0 && false) //0
+
+0 && true;
+console.log(0 && true) //0
+
+true && NaN;
+console.log(true && NaN) //NaN
+
+true && !1;
+console.log(true && !1) //false
+
+!0 && "This is a string"; 
+
+!0 && "";
+
+!0 && !!"";
+
+// Practice with OR
+0 || false;
+
+true || false;
+
+true || 1;
+
+!true || !false
+
+!1 || !0
